@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" charset="utf-8" defer></script>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>This is my first Rust app</h1>
+    <h2> we are going to create form</h2>
+    <form method="POST">
+        <label name="user_name" for="user_name">User name: </label>
+        <input type="text" name="user_name">
+        <label name="password" for="password">Password : </label>
+        <input type="password" name="password">
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
